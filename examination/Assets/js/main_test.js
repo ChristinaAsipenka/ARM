@@ -83,7 +83,7 @@ $(window).ready(function(){
 		counterInterval = setInterval(updateCounter, 1000);
 	}
 	
-	
+	col_from_settings = $('#col_from_settings').text();
 	
 
 
@@ -156,7 +156,7 @@ $(window).ready(function(){
 			return false;
 		}
 		
-		if(all_questions == 12){
+		if(all_questions == col_from_settings){
 			$('#btn_showAllQuestions').prop("disabled",false);
 			$('#btn_printAllQuestions').prop("disabled",false);
 			

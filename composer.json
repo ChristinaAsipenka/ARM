@@ -1,0 +1,21 @@
+{
+    "name": "prog2/arm",
+    "require": {},
+	"autoload": {
+		
+		"psr-4":{
+			
+			"Engine\\" : "engine",
+			"Cms\\" : "cms",
+			"Engine\\DI\\" : "engine/DI",
+			"Admin\\" : "admin",
+			"Basis\\" : "basis",
+			"Examination\\" : "examination",
+			"Monitoring\\" : "monitoring",
+			"Gaz\\" : "gaz",
+			"Ozp\\" : "ozp",
+			"Library\\" : "library",
+			"Library\\PhpSpreadsheet\\" : "library/PhpSpreadsheet"
+		}
+	}
+}

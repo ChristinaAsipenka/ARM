@@ -1,0 +1,27 @@
+/*********** стили меню главной страницы ***************/
+.index_menu{
+	margin-top: 40px;
+}
+.index_menu_item{
+	display: inline-block;
+	background-color:#782006; 
+	width: 350px;
+	height: 80px;
+	padding-top: 27px;
+	margin-top: 15px;
+	text-align: center;
+	color: #fff;
+}
+.index_menu_item:hover{
+	background-color: #4d1404;
+}
+.index_menu .flex{
+	justify-content: space-between;
+}
+/*******************************************************/
+.main_page_info{
+	padding-top: 150px;
+}
+.main_page_info h1{
+	font-size:32px;
+}

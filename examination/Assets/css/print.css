@@ -1,0 +1,65 @@
+@media print {
+html, body{
+		height: 297mm;
+		width: 210mm;
+	}
+	
+	.noprint {
+		display: none;
+	}
+	
+	header, footer, banner {
+		display: none;
+	}
+	
+	.container {
+		width: auto;
+		margin: 0;
+		padding: 0;
+		font-size: 11px;
+	}
+	
+	.fieldset_test_block{
+		padding: 0px;
+		border: none;
+	}
+	
+	.btn_next_question, .page_title{
+		display: none;
+	}
+	
+	.wrong_answer span::after, .right_answer span::after{
+		display: inline-block;
+		
+		font-size: 24px;
+		padding-left: 15px;
+		position: absolute;
+		top: -1px;
+	}
+	
+	.wrong_answer span::after{
+		content:'×';
+	}
+	.right_answer span::after{
+		
+		content:'√';
+		
+	}
+	
+
+	.base_part{
+		padding: 0px;
+	}
+	.right_answer, .wrong_answer, .test_answer{
+		border: none;
+	}
+	.nav_buttons{
+		display: none;
+	}
+	
+	
+}
+
+@page {
+	margin: 10mm 10mm 10mm 20mm;
+}

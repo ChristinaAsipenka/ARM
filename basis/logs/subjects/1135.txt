@@ -1,0 +1,4 @@
+2022-07-27 11:14:18 id_user:67 auth_login:Яцутко А.В. subject_id=>1135 custom_name=>0 spr_otdel=>15 otv_type_e=>2 otv_e3=>1 order_num_e3=>1 order_data_e3=>2022-07-01 dog_num_e3=>2 dog_data_e3=>2022-07-02 dog_data_cont_e3=>2022-07-03 
+2022-07-29 09:25:35 id_user:67 auth_login:Яцутко А.В. subject_id=>1135 custom_name=>0 spr_otdel=>15 otv_type_t=>1 otv_t1=>13 order_num_t1=>1 order_data_t1=>2022-07-01 
+2022-07-29 09:38:50 id_user:67 auth_login:Яцутко А.В. subject_id=>1135 custom_name=>0 spr_otdel=>15 otv_e3=>12 
+2022-07-29 09:50:28 id_user:67 auth_login:Яцутко А.В. subject_id=>1135 custom_name=>0 spr_otdel=>15 otv_e3=>9 

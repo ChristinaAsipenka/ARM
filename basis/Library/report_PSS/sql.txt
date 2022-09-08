@@ -1,0 +1,34 @@
+	SELECT reestr_subject.name,
+	reestr_subject.place_address_index,	reestr_subject.place_address_region, spr_region.name AS Rgn, reestr_subject.place_address_district, spr_district.name AS Dst, 
+	reestr_subject.place_address_city, spr_city.name AS Ct,	
+	reestr_subject.place_address_city_zone, spr_city_zone.name AS Ctz,
+	reestr_subject.place_address_street, 	reestr_subject.place_address_building, 	reestr_subject.place_address_flat,
+	reestr_subject.supply_dog_date,	reestr_subject.supply_dog_num
+	
+	FROM `reestr_subject`
+		JOIN spr_region ON reestr_subject.place_address_region=spr_region.id
+		JOIN spr_district ON reestr_subject.place_address_district=spr_district.id
+		JOIN spr_city ON reestr_subject.place_address_city=spr_city.id
+		JOIN spr_city_zone ON reestr_subject.place_address_city_zone=spr_city_zone.id
+
+	WHERE reestr_subject.id=95
+	
+	
+
+		SELECT 
+	reestr_subject.place_address_index,	
+    spr_region.name AS Rgn, 	  
+    spr_district.name AS Dst, 
+	spr_city.name AS Ct,	
+    spr_city_zone.name AS Ctz,
+	reestr_subject.place_address_street, 	
+    reestr_subject.place_address_building, 	
+    reestr_subject.place_address_flat
+
+	FROM `reestr_subject`
+		JOIN spr_region ON reestr_subject.place_address_region=spr_region.id
+		JOIN spr_district ON reestr_subject.place_address_district=spr_district.id
+		JOIN spr_city ON reestr_subject.place_address_city=spr_city.id
+		JOIN spr_city_zone ON reestr_subject.place_address_city_zone=spr_city_zone.id
+
+	WHERE reestr_subject.id=95

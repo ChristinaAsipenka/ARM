@@ -1,0 +1,1 @@
+2022-08-03 14:47:39 id_user:63 auth_login:Новиков М.С. subject_id=>1171 custom_name=>0 spr_otdel=>15 otv_type_e=>2 otv_e3=>4 order_num_e3=>2 order_data_e3=>2022-08-02 dog_num_e3=>3 dog_data_e3=>2022-08-03 dog_data_cont_e3=>2022-08-04 

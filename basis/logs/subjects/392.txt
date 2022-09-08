@@ -1,0 +1,4 @@
+2022-04-27 14:58:11 id_user:55 auth_login:Артюх Д.В. subject_id=>392 custom_name=>1 
+2022-04-27 14:58:12 id_user:55 auth_login:Артюх Д.В. subject_id=>392 custom_name=>0 
+2022-04-27 15:03:41 id_user:55 auth_login:Артюх Д.В. subject_id=>392 id_unp_head=>220 custom_name=>0 spr_otdel=>14 
+2022-04-27 15:09:53 id_user:55 auth_login:Артюх Д.В. subject_id=>392 custom_name=>0 ruk_firstname=>Петорв spr_otdel=>14 

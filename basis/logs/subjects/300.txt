@@ -1,0 +1,20 @@
+2022-03-28 16:13:00 id_user:19 auth_login:Галай А.Л. subject_id=>300 fname_address_region=>2 fname_address_district=>20 fname_address_city=>376 
+2022-03-28 16:13:25 id_user:19 auth_login:Галай А.Л. subject_id=>300 fname_address_region=>2 fname_address_district=>20 fname_address_city=>378 
+2022-03-28 16:13:27 id_user:19 auth_login:Галай А.Л. subject_id=>300 fname_address_region=>2 fname_address_district=>20 fname_address_city=>378 
+2022-04-19 10:39:27 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 spr_otdel=>16 sbj_note=>тест 
+2022-04-19 10:43:34 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 spr_otdel=>16 sbj_note=>тест 
+2022-04-19 10:45:12 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 spr_otdel=>16 sbj_note=>test 
+2022-04-19 10:53:36 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 spr_otdel=>16 sbj_note=>тест 
+2022-04-19 10:54:56 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 spr_otdel=>16 sbj_note=>тест 
+2022-04-19 10:57:09 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 spr_otdel=>16 sbj_note=>тест 
+2022-04-19 11:01:40 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 spr_otdel=>16 sbj_note=>тест2 
+2022-04-21 14:54:11 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 place_address_building=>30 post_address_building=>30 spr_otdel=>16 
+2022-04-21 14:56:19 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 spr_otdel=>16 
+2022-04-21 14:58:22 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 place_address_building=> post_address_building=>  spr_otdel=>16 
+2022-04-21 14:58:43 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 place_address_building=>30 post_address_building=>30 spr_otdel=>16 
+2022-04-21 14:58:54 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 place_address_building=> post_address_building=>  spr_otdel=>16 
+2022-04-21 15:23:21 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 place_address_building=>30 post_address_building=>30 spr_otdel=>16 
+2022-04-28 09:58:08 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 spr_otdel=>16 email=>ываыв 
+2022-04-28 09:58:16 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 spr_otdel=>16 sbj_note=> email=> 
+2022-04-28 10:01:21 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 ruk_firstname=>й ruk_secondname=>ц ruk_lastname=>у ruk_tel=>к spr_otdel=>16 
+2022-04-28 10:01:36 id_user:59 auth_login:Смунев А.Н. subject_id=>300 custom_name=>0 ruk_firstname=> ruk_secondname=> ruk_lastname=> ruk_tel=> spr_otdel=>16 

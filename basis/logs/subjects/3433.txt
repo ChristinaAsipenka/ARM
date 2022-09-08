@@ -1,0 +1,4 @@
+2022-06-08 12:39:32 id_user:19 auth_login:Галай А.Л. subject_id=>3433 fname_address_region=>2 fname_address_district=>20 fname_address_city=>376 
+2022-06-08 12:39:33 id_user:19 auth_login:Галай А.Л. subject_id=>3433 custom_name=>1 
+2022-06-08 12:39:34 id_user:19 auth_login:Галай А.Л. subject_id=>3433 custom_name=>0 
+2022-06-08 12:39:42 id_user:19 auth_login:Галай А.Л. subject_id=>3433 fname_address_region=>2 fname_address_district=>20 fname_address_city=>391 

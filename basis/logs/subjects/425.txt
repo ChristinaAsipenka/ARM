@@ -1,0 +1,2 @@
+2022-05-12 11:17:22 id_user:19 auth_login:Галай А.Л. subject_id=>425 custom_name=>0 spr_otdel=>16 otv_t1=>2 otv_t2=>1 order_num_t1=>10 order_num_t2=>20 order_data_t1=>2022-05-10 order_data_t2=>2022-05-20 
+2022-05-12 11:19:17 id_user:19 auth_login:Галай А.Л. subject_id=>425 custom_name=>0 spr_otdel=>16 

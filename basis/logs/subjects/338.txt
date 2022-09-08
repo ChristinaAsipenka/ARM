@@ -1,0 +1,1 @@
+2022-03-30 12:46:50 id_user:19 auth_login:Галай А.Л. subject_id=>338 custom_name=>0 place_address_index=>210030 post_address_index=>210030 spr_otdel=>16 

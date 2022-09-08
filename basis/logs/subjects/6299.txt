@@ -1,0 +1,6 @@
+2022-07-25 09:56:01 id_user:19 auth_login:Галай А.Л. subject_id=>6299 custom_name=>0 spr_otdel=>16 otv_e1=>8 otv_e2=>6 order_num_e1=>10 order_num_e2=>20 order_data_e1=>2022-07-10 order_data_e2=>2022-07-20 
+2022-07-25 10:07:00 id_user:19 auth_login:Галай А.Л. subject_id=>6299 custom_name=>0 spr_otdel=>16 otv_t1=>6 otv_t2=>7 order_num_t1=>11 order_num_t2=>22 order_data_t1=>2022-07-11 order_data_t2=>2022-07-22 
+2022-07-25 10:08:29 id_user:19 auth_login:Галай А.Л. subject_id=>6299 custom_name=>0 spr_otdel=>16 
+2022-07-25 10:17:07 id_user:19 auth_login:Галай А.Л. subject_id=>6299 custom_name=>0 spr_otdel=>16 
+2022-07-25 10:21:47 id_user:19 auth_login:Галай А.Л. subject_id=>6299 custom_name=>0 spr_otdel=>16 
+2022-07-25 10:24:53 id_user:19 auth_login:Галай А.Л. subject_id=>6299 custom_name=>0 spr_otdel=>16 otv_type_t=>1 

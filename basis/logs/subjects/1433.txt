@@ -1,0 +1,6 @@
+2022-07-27 11:44:14 id_user:67 auth_login:Яцутко А.В. subject_id=>1433 custom_name=>0 spr_otdel=>15 otv_type_e=>1 otv_e1=>9 order_num_e1=>1 order_data_e1=>2022-07-05 
+2022-07-28 14:20:59 id_user:67 auth_login:Яцутко А.В. subject_id=>1433 custom_name=>0 spr_otdel=>15 otv_e2=>11 order_num_e2=>200 order_data_e2=>2022-07-19 
+2022-07-29 08:51:55 id_user:67 auth_login:Яцутко А.В. subject_id=>1433 custom_name=>0 spr_otdel=>15 
+2022-07-29 09:17:57 id_user:67 auth_login:Яцутко А.В. subject_id=>1433 custom_name=>0 spr_otdel=>15 otv_e1=>12 
+2022-07-29 09:20:10 id_user:67 auth_login:Яцутко А.В. subject_id=>1433 custom_name=>0 spr_otdel=>15 otv_e1=>9 otv_e2=>12 
+2022-07-29 09:23:22 id_user:67 auth_login:Яцутко А.В. subject_id=>1433 custom_name=>0 spr_otdel=>15 otv_type_t=>2 otv_t3=>1 order_num_t3=>1 order_data_t3=>2022-07-04 dog_num_t3=>2 dog_data_t3=>2022-07-06 dog_data_cont_t3=>2022-07-07 

@@ -1,0 +1,2 @@
+2022-03-12 10:53:38 id_user:19 auth_login:Галай А.Л. subject_id=>282 id_ind_pers=>7 name=>Сидоров Сидор Сидорович spr_otdel=>16 
+2022-03-12 10:54:09 id_user:19 auth_login:Галай А.Л. subject_id=>282 id_ind_pers=>2 name=>Иванов Иван Иванович spr_otdel=>16 

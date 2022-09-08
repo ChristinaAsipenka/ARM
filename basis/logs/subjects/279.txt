@@ -1,0 +1,10 @@
+2022-03-11 14:24:44 id_user:19 auth_login:Галай А.Л. subject_id=>279 num_case_s=>111 
+2022-03-11 16:48:00 id_user:19 auth_login:Галай А.Л. subject_id=>279 name=>Государственное лесохозяйственное учреждение "Бегомльский лесхоз" (Войская) num_case_s=>111-5 spr_otdel=>16 
+2022-03-12 10:24:41 id_user:19 auth_login:Галай А.Л. subject_id=>279 name=>Государственное лесохозяйственное учреждение "Бегомльский лесхоз" (Бешенковичи) fname_address_region=>2 fname_address_district=>17 fname_address_city=>268 spr_otdel=>16 
+2022-03-12 10:25:42 id_user:19 auth_login:Галай А.Л. subject_id=>279 name=>Государственное лесохозяйственное учреждение "Бегомльский лесхоз" (Бочейково) fname_address_city=>269 spr_otdel=>16 
+2022-03-12 10:26:37 id_user:19 auth_login:Галай А.Л. subject_id=>279 name=>Государственное лесохозяйственное учреждение "Бегомльский лесхоз" (Будилово) fname_address_city=>270 spr_otdel=>16 
+2022-03-12 10:26:51 id_user:19 auth_login:Галай А.Л. subject_id=>279 name=>Государственное лесохозяйственное учреждение "Бегомльский лесхоз" (Будилово) spr_otdel=>16 
+2022-03-12 10:29:00 id_user:19 auth_login:Галай А.Л. subject_id=>279 name=>Государственное лесохозяйственное учреждение "Бегомльский лесхоз" (Бешенковичи) fname_address_city=>268 spr_otdel=>16 
+2022-03-12 10:30:20 id_user:19 auth_login:Галай А.Л. subject_id=>279 num_case_s=>111-56 spr_otdel=>16 
+2022-03-12 10:48:21 id_user:19 auth_login:Галай А.Л. subject_id=>279 spr_otdel=>16 
+2022-03-15 11:01:40 id_user:19 auth_login:Галай А.Л. subject_id=>279 spr_otdel=>16 otv_type_e=>2 otv_e1=>19 otv_e2=>0 order_num_e1=>111 order_data_e1=>2022-03-15 dog_num_e=>111 dog_data_e=>2022-03-15 

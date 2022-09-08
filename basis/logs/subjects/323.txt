@@ -1,0 +1,5 @@
+2022-03-24 15:36:23 id_user:43 auth_login:Смольский Д.А. subject_id=>323 custom_name=>0 
+2022-03-24 15:36:29 id_user:43 auth_login:Смольский Д.А. subject_id=>323 custom_name=>0 spr_otdel=>17 
+2022-04-27 15:57:34 id_user:43 auth_login:Смольский Д.А. subject_id=>323 custom_name=>0 spr_otdel=>17 email=>asd@gfd.com 
+2022-04-27 16:02:34 id_user:43 auth_login:Смольский Д.А. subject_id=>323 custom_name=>0 spr_otdel=>17 email=>test 
+2022-04-27 16:03:04 id_user:43 auth_login:Смольский Д.А. subject_id=>323 custom_name=>0 spr_otdel=>17 email=>test 

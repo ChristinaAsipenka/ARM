@@ -1,0 +1,1 @@
+2022-05-11 12:04:23 id_user:19 auth_login:Галай А.Л. subject_id=>418 custom_name=>0 spr_otdel=>16 otv_e3=>2 order_num_e3=>12 order_data_e3=>2022-05-12 dog_num_e3=>13 dog_data_e3=>2022-05-13 dog_data_cont_e3=>2022-05-14 

@@ -1,0 +1,1 @@
+2022-05-13 10:32:41 id_user:43 auth_login:Смольский Д.А. subject_id=>431 custom_name=>0 spr_otdel=>17 ins_data_e=>2022-05-11 ins_data_t=>2022-05-21 

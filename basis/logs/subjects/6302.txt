@@ -1,0 +1,1 @@
+2022-07-25 10:20:00 id_user:19 auth_login:Галай А.Л. subject_id=>6302 custom_name=>0 spr_otdel=>16 otv_type_e=>1 otv_e1=>8 otv_e2=>7 order_num_e1=>23 order_num_e2=>24 order_data_e1=>2022-07-23 order_data_e2=>2022-07-24 

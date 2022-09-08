@@ -1,0 +1,2 @@
+2022-07-27 09:49:11 id_user:39 auth_login:Гурин С.И. subject_id=>1816 custom_name=>0 spr_otdel=>18 otv_type_e=>2 otv_e3=>1 order_num_e3=>1 order_data_e3=>2022-07-01 dog_num_e3=>2 dog_data_e3=>2022-07-02 dog_data_cont_e3=>2022-07-03 
+2022-07-27 15:27:39 id_user:39 auth_login:Гурин С.И. subject_id=>1816 custom_name=>0 spr_otdel=>18 otv_type_t=>2 otv_t3=>2 order_num_t3=>1 order_data_t3=>2022-07-04 dog_num_t3=>2 dog_data_t3=>2022-07-06 dog_data_cont_t3=>2022-07-06 

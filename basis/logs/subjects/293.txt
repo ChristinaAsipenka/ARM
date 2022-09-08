@@ -1,0 +1,32 @@
+2022-03-22 15:24:06 id_user:164 auth_login:Берзина А.А. subject_id=>293 name=>"Приход Свято-Покровского кафедрального собора г.Витебска Витеб.епарх.Белор.Православн.Церкви" (Гора) fname_address_city=>378 spr_otdel=>16 
+2022-03-25 09:29:11 id_user:19 auth_login:Галай А.Л. subject_id=>293 id_unp_head=>705 custom_name=>0 spr_otdel=>16 
+2022-03-25 09:29:14 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>1 
+2022-03-25 09:29:19 id_user:19 auth_login:Галай А.Л. subject_id=>293 name=>"Приход Свято-Покровского кафедрального собора г.Витебска Витеб.епарх.Белор.Православн.Церкви" (Гора)ввв custom_name=>1 spr_otdel=>16 
+2022-03-25 11:26:01 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 
+2022-03-25 11:26:03 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>1 
+2022-03-28 09:31:06 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 
+2022-03-28 09:31:09 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>1 
+2022-03-28 09:31:18 id_user:19 auth_login:Галай А.Л. subject_id=>293 name=>ййййй custom_name=>1 spr_otdel=>16 
+2022-03-28 09:31:27 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 
+2022-03-28 09:31:32 id_user:19 auth_login:Галай А.Л. subject_id=>293 name=>"Приход Свято-Покровского кафедрального собора г.Витебска Витеб.епарх.Белор.Православн.Церкви" custom_name=>0 spr_otdel=>16 
+2022-03-30 12:02:56 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 place_address_index=>210018 post_address_index=>210018 spr_otdel=>16 
+2022-04-19 08:05:16 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 spr_otdel=>16 
+2022-04-19 08:15:25 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 spr_otdel=>16 
+2022-04-21 09:03:27 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 spr_otdel=>16 
+2022-04-21 09:04:01 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 spr_otdel=>16 
+2022-04-21 09:06:19 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 spr_otdel=>16 
+2022-04-21 09:27:11 id_user:19 auth_login:Галай А.Л. subject_id=>293 type_department=>30 custom_name=>0 spr_otdel=>16 
+2022-04-21 09:28:51 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 spr_otdel=>16 
+2022-04-21 09:30:03 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 spr_otdel=>16 
+2022-04-21 10:27:43 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 spr_otdel=>16 
+2022-04-21 10:30:16 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 spr_otdel=>16 
+2022-04-21 10:30:28 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 spr_otdel=>16 
+2022-04-21 15:17:01 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 place_address_flat=>2 post_address_flat=>2 spr_otdel=>16 
+2022-04-21 15:17:11 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 place_address_flat=>24 post_address_flat=>24 spr_otdel=>16 
+2022-04-26 15:33:37 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 place_address_flat=> post_address_flat=>  spr_otdel=>16 
+2022-04-26 15:34:01 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 place_address_street=> post_address_street=> spr_otdel=>16 
+2022-04-26 15:34:15 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 place_address_street=>Шубина post_address_street=>Шубина spr_otdel=>16 
+2022-05-04 14:53:14 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>1 
+2022-05-04 14:53:15 id_user:19 auth_login:Галай А.Л. subject_id=>293 custom_name=>0 
+2022-05-19 09:51:17 id_user:43 auth_login:Смольский Д.А. subject_id=>293 fname_address_region=>2 fname_address_district=>20 fname_address_city=>378 
+2022-05-19 09:51:20 id_user:43 auth_login:Смольский Д.А. subject_id=>293 name=>"Приход Свято-Покровского кафедрального собора г.Витебска Витеб.епарх.Белор.Православн.Церкви" (Гора) custom_name=>0 spr_otdel=>16 

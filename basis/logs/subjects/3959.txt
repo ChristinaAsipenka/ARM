@@ -1,0 +1,1 @@
+2022-08-03 16:07:25 id_user:23 auth_login:Шлапаков С.А. subject_id=>3959 custom_name=>0 spr_otdel=>16 otv_type_t=>2 otv_t3=>11 order_num_t3=>1 order_data_t3=>2022-08-02 dog_num_t3=>2 dog_data_t3=>2022-08-03 dog_data_cont_t3=>2022-08-10 

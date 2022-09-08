@@ -1,0 +1,18 @@
+2022-03-15 09:13:58 id_user:59 auth_login:Смунев А.Н. subject_id=>121 type_department=>31 spr_otdel=>15 otv_type_e=>2 otv_e1=>19 otv_e2=>0 order_num_e1=>132 order_data_e1=>2022-03-14 dog_num_e=>153 dog_data_e=>2022-03-14 otv_type_t=>2 otv_t=>20 order_num_t=>444 order_data_t=>2022-03-15 dog_num_t=>444 dog_data_t=>2022-03-15 otv_type_g=>2 otv_g=>21 order_num_g=>78 order_data_g=>2022-03-15 dog_num_g=>45 dog_data_g=>2022-03-15 
+2022-03-24 10:29:33 id_user:59 auth_login:Смунев А.Н. subject_id=>121 custom_name=>1 
+2022-03-24 10:39:46 id_user:59 auth_login:Смунев А.Н. subject_id=>121 custom_name=>0 
+2022-03-24 10:40:00 id_user:59 auth_login:Смунев А.Н. subject_id=>121 custom_name=>1 
+2022-03-24 10:50:16 id_user:59 auth_login:Смунев А.Н. subject_id=>121 custom_name=>0 
+2022-03-24 10:50:16 id_user:59 auth_login:Смунев А.Н. subject_id=>121 custom_name=>1 
+2022-03-24 11:10:23 id_user:59 auth_login:Смунев А.Н. subject_id=>121 custom_name=>0 
+2022-03-24 11:10:42 id_user:59 auth_login:Смунев А.Н. subject_id=>121 custom_name=>1 
+2022-03-24 11:11:47 id_user:59 auth_login:Смунев А.Н. subject_id=>121 custom_name=>0 
+2022-03-24 11:12:26 id_user:59 auth_login:Смунев А.Н. subject_id=>121 custom_name=>1 
+2022-03-24 11:12:55 id_user:59 auth_login:Смунев А.Н. subject_id=>121 name=>rrrrrr custom_name=>1 fname_address_region=>1 fname_address_district=>13 fname_address_city=>189 spr_otdel=>15 
+2022-03-24 11:28:28 id_user:59 auth_login:Смунев А.Н. subject_id=>121 custom_name=>0 
+2022-03-24 11:28:42 id_user:59 auth_login:Смунев А.Н. subject_id=>121 custom_name=>1 
+2022-03-24 11:34:29 id_user:59 auth_login:Смунев А.Н. subject_id=>121 custom_name=>0 
+2022-03-24 15:32:15 id_user:57 auth_login:Мясников М.В. subject_id=>121 custom_name=>1 
+2022-03-24 15:32:16 id_user:57 auth_login:Мясников М.В. subject_id=>121 custom_name=>0 
+2022-04-21 16:25:54 id_user:55 auth_login:Артюх Д.В. subject_id=>121 custom_name=>0 spr_otdel=>15 
+2022-04-28 10:00:56 id_user:59 auth_login:Смунев А.Н. subject_id=>121 custom_name=>0 spr_otdel=>15 sbj_note=>ываываываываыва email=>ываыв 

@@ -1,0 +1,1 @@
+2022-05-11 12:02:00 id_user:19 auth_login:Галай А.Л. subject_id=>417 custom_name=>0 spr_otdel=>16 ins_data_e=>2022-05-30 

@@ -1,0 +1,1 @@
+2022-07-29 10:37:11 id_user:67 auth_login:Яцутко А.В. subject_id=>2041 custom_name=>0 spr_otdel=>16 otv_type_e=>2 otv_e3=>9 order_num_e3=>1 order_data_e3=>2022-07-06 dog_num_e3=>2 dog_data_e3=>2022-07-20 dog_data_cont_e3=>2022-07-21 

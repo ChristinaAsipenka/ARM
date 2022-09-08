@@ -1,0 +1,10 @@
+2022-03-23 15:36:11 id_user:59 auth_login:Смунев А.Н. subject_id=>132 type_department=>31 spr_otdel=>15 
+2022-03-24 09:12:25 id_user:59 auth_login:Смунев А.Н. subject_id=>132 spr_otdel=>15 
+2022-03-24 09:12:53 id_user:59 auth_login:Смунев А.Н. subject_id=>132 spr_otdel=>15 
+2022-03-24 09:18:11 id_user:59 auth_login:Смунев А.Н. subject_id=>132 custom_name=>0 spr_otdel=>15 
+2022-03-24 09:21:55 id_user:59 auth_login:Смунев А.Н. subject_id=>132 custom_name=>1 spr_otdel=>15 
+2022-03-24 09:37:46 id_user:59 auth_login:Смунев А.Н. subject_id=>132 custom_name=>0 spr_otdel=>15 
+2022-03-24 09:37:56 id_user:59 auth_login:Смунев А.Н. subject_id=>132 custom_name=>1 spr_otdel=>15 
+2022-03-24 10:00:36 id_user:19 auth_login:Галай А.Л. subject_id=>132 custom_name=>0 
+2022-03-24 10:01:00 id_user:19 auth_login:Галай А.Л. subject_id=>132 custom_name=>1 
+2022-03-24 10:01:07 id_user:19 auth_login:Галай А.Л. subject_id=>132 custom_name=>0 

@@ -1,0 +1,6 @@
+2022-05-10 13:52:04 id_user:19 auth_login:Галай А.Л. subject_id=>409 custom_name=>0 spr_otdel=>16 
+2022-05-10 13:54:59 id_user:19 auth_login:Галай А.Л. subject_id=>409 custom_name=>0 spr_otdel=>16 ins_data_e=>2022-05-18 
+2022-05-10 13:55:14 id_user:19 auth_login:Галай А.Л. subject_id=>409 custom_name=>0 spr_otdel=>16 ins_data_e=>2022-05-19 
+2022-05-10 13:55:43 id_user:19 auth_login:Галай А.Л. subject_id=>409 custom_name=>0 ruk_firstname=> ruk_secondname=> ruk_lastname=> spr_otdel=>16 ins_data_e=>2022-05-19 
+2022-05-10 13:57:31 id_user:19 auth_login:Галай А.Л. subject_id=>409 custom_name=>0 ruk_firstname=>И ruk_secondname=>А ruk_lastname=>Л spr_otdel=>16 ins_data_e=>2022-05-19 
+2022-05-10 13:58:41 id_user:19 auth_login:Галай А.Л. subject_id=>409 custom_name=>0 spr_otdel=>16 ins_data_e=>2022-05-18 

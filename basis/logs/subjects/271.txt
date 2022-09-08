@@ -1,0 +1,6 @@
+2022-03-11 14:27:13 id_user:19 auth_login:Галай А.Л. subject_id=>271 name=>Государственное лесохозяйственное учреждение "Бегомльский лесхоз" (Барановичи) fname_address_district=>1 fname_address_city=>2173 
+2022-03-11 14:27:44 id_user:19 auth_login:Галай А.Л. subject_id=>271 
+2022-03-11 14:29:21 id_user:19 auth_login:Галай А.Л. subject_id=>271 
+2022-03-11 14:30:41 id_user:19 auth_login:Галай А.Л. subject_id=>271 
+2022-03-11 14:32:24 id_user:19 auth_login:Галай А.Л. subject_id=>271 name=>Государственное лесохозяйственное учреждение "Бегомльский лесхоз" (Задвея) fname_address_city=>3 
+2022-03-11 14:35:32 id_user:19 auth_login:Галай А.Л. subject_id=>271 name=>Государственное лесохозяйственное учреждение "Бегомльский лесхоз" (Задвея) spr_otdel=>15 

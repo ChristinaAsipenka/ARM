@@ -1,0 +1,3 @@
+2022-03-12 10:49:41 id_user:19 auth_login:Галай А.Л. subject_id=>270 name=>Государственное лесохозяйственное учреждение "Бегомльский лесхоз" (Бешенковичи) fname_address_region=>2 fname_address_district=>17 fname_address_city=>268 spr_otdel=>15 
+2022-03-12 10:51:42 id_user:19 auth_login:Галай А.Л. subject_id=>270 name=>Государственное лесохозяйственное учреждение "Бегомльский лесхоз" (Бешенковичи) fname_address_region=>2 fname_address_district=>17 fname_address_city=>268 spr_otdel=>15 
+2022-03-12 10:52:32 id_user:19 auth_login:Галай А.Л. subject_id=>270 name=>Государственное лесохозяйственное учреждение "Бегомльский лесхоз" (Бешенковичи) fname_address_region=>2 fname_address_district=>17 fname_address_city=>268 spr_otdel=>15 

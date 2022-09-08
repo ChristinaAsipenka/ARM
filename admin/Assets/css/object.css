@@ -1,0 +1,859 @@
+.tabs {
+        /*min-width: 320px;
+        max-width: 800px;
+        padding: 0px;
+        margin: 0 auto;
+		margin-bottom: 20px;*/
+		width: 1200px;
+		margin: 0px auto 5px;
+		/*display: flex;*/
+		
+		
+}
+.tabs-section{
+	/*clear: both;*/
+	perspective: 600px;
+	margin-bottom: 15px;
+}
+/* Стили секций с содержанием */
+.tabs>.tabs-section>section {
+
+      width: 1200px;
+
+	  border: 2px solid #782006;
+	  padding: 10px 30px 40px;
+	  line-height: 1.4em;
+   	display: none;
+}
+.tabs>.tabs-section>section>p {
+
+        margin: 0 0 5px;
+        line-height: 1.5;
+        color: #383838;
+ /* прикрутим анимацию */
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+}
+/* Описываем анимацию свойства opacity */
+ 
+/*@-webkit-keyframes fadeIn {
+        from {
+                opacity: 0;
+        }
+        to {
+                opacity: 1;
+        }
+}
+@keyframes fadeIn {
+        from {
+                opacity: 0;
+        }
+        to {
+                opacity: 1;
+        }
+}*/
+/* Прячем чекбоксы */
+.tabs>input {
+        display: none;
+}
+/* Стили переключателей вкладок (табов) */
+.tabs>label {
+       /* display: inline-block;
+        margin: 0 0 -1px;
+        padding: 15px 25px;
+        font-weight: 600;
+        text-align: center;
+        color: #aaa;
+ border: 0px solid #ddd;
+ border-width: 1px 1px 1px 1px;
+        background: #f1f1f1;
+ border-radius: 3px 3px 0 0;*/
+	display: inline-block;
+
+	padding: 12px 20px;
+	margin-right: 5px;
+	cursor: pointer;
+	transition: background-color .3s;
+}
+
+/* Изменения стиля переключателей вкладок при наведении */
+.tabs>input:checked+label {
+    background: #782006;
+    color: #ffffff;
+}
+.tabs>label:hover {
+    background: #c2c2c2;
+    color: #782006;
+	opacity: 1;
+}
+.tabs>label:active {
+    background: #782006;
+    color: #ffffff;
+	opacity: 0.7;
+}
+
+/* Стили для активной вкладки */
+/*.tabs>input:checked+label {
+        color: #555;
+ border-top: 3px solid #782006;
+ border-bottom: 1px solid #fff;
+ background: #fff;
+}*/
+/* Активация секций с помощью псевдокласса :checked */
+#tab1:checked~.tabs-section>#content-tab1, 
+#tab2:checked~.tabs-section>#content-tab2, 
+#tab3:checked~.tabs-section>#content-tab3, 
+#tab4:checked~.tabs-section>#content-tab4, 
+#tab5:checked~.tabs-section>#content-tab5 {
+	transform: rotateX(0);
+	/*opacity: 1;
+	z-index: 1;*/
+	display: block;
+}
+/* Убираем текст с переключателей 
+* и оставляем иконки на малых экранах
+*/
+ 
+@media screen and (max-width: 680px) {
+        .tabs>label {
+                font-size: 0;
+        }
+        .tabs>label:before {
+                margin: 0;
+                font-size: 18px;
+        }
+}
+/* Изменяем внутренние отступы 
+*  переключателей для малых экранов
+*/
+@media screen and (max-width: 400px) {
+        .tabs>label {
+                padding: 15px;
+        }
+}
+
+/*body {
+  color: #2c3e50;
+  background: #ecf0f1;
+}
+h1 {
+  text-align: center;
+}*/
+.half {
+  width: 120%;
+  padding: 0 1em;
+}
+/* Acordeon styles */
+.tab {
+  position: relative;
+  margin-bottom: 1px;
+  width: 100%;
+  color: #000;
+  overflow: hidden;
+}
+.tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.tab label {
+  position: relative;
+  display: block;
+  padding: 0 0 0 1em;
+  background: #eee;
+  font-weight: bold;
+  line-height: 1;
+  cursor: pointer;
+  color: #fff;
+  background: #782006;
+}
+.blue label {
+  background: #2980b9;
+}
+.tab-content {
+  max-height: 0;
+  overflow: hidden;
+  /*background: #1abc9c;*/
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+}
+.blue .tab-content {
+  background: #3498db;
+}
+.tab-content p {
+  margin: 1em;
+}
+/* :checked */
+.tab input:checked ~ .tab-content {
+  max-height: 100vh;
+}
+
+/* Icon */
+.tab label::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 3em;
+  height: 3em;
+  line-height: 3;
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+}
+.tab input[type=checkbox] + label::after {
+  content: "+";
+}
+.tab input[type=radio] + label::after {
+  content: "\25BC";
+}
+.tab input[type=checkbox]:checked + label::after {
+  transform: rotate(315deg);
+}
+.tab input[type=radio]:checked + label::after {
+  transform: rotateX(180deg);
+}
+.label-tab-one{
+	margin-bottom: 0px;
+}
+.p_og_flue{
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px;
+	color: #782006;
+}
+.table_spr {
+	width: 80%;
+	max-width: 100%;
+	margin-bottom: 1rem;
+	margin-left: 56px;
+	border-collapse: collapse;
+	background-color: transparent;
+}
+.table_spr td:hover {
+	background:#782006;
+	color: #fff;
+	cursor: pointer;
+}
+.table_spr thead {
+    background: #eee;
+}
+.table_spr td, .table_spr th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #eceeef;
+}
+.table_spr_source td, .table_spr_source th {
+    padding: .75rem;
+    vertical-align: top;
+	color: rgb(41,127,184);
+   /* border-top: 1px solid #eceeef;*/
+}
+.table_spr_source td:hover {
+	/*background:#782006;*/
+	color: #782006;
+	cursor: pointer;
+	font-weight: bold;
+}
+.modalDialog_og_flue, .modalDialog_flue_mater, .modalDialog_type_gaz, .modalDialog_go, .modalDialog_go_vid, .modalDialog_oti_boiler_type, .modalDialog_oti_type_fuel, .modalDialog_oti_type_fuel_rezerv, .modalDialog_boiler_water, .modalDialog_systemheat_water, .modalDialog_systemheat_dependent, .modalDialog_ot_type_to, .modalDialog_obj_og_device, .modalDialog_og_device_type, .modalDialog_boiler_vapor, .modalDialog_obj_ot_heatnet, .modalDialog_ot_heatnet_type_iso, .modalDialog_ot_functions, .modalDialog_ot_cat, .modalDialog_ot_gvs_open, .modalDialog_ot_gvs_in, .modalDialog_obj_ot_personal_tp, .modalDialog_obj_ot_heatnet_t, .modalDialog_guides, .modalDialog_guidesfromSubject, .modalDialog_systemheat_layout, .modalDialog_systemheat_type_op, .modalDialog_obj_ot_personal_sar, .modalDialog_obj_og_obsl, .modalDialog_obj_og_accidents, .modalDialog_obj_ot_prit_vent, .modalDialog_obj_ot_teploobmennik_gvs, .modalDialog_obj_ot_teploobmennik_so{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 9999;
+    width: 600px;
+    height: 65%;
+    margin: 5% auto;
+    display: none;
+	overflow-y: auto;
+}
+/*.mobileTable{
+	overflow: scroll;
+	min-height: 150px;
+	max-height: 400px;
+	margin-bottom: 20px;
+} в main*/
+.cwdtable {
+    font-size: 14px;
+    color: #000;
+    width: 100%;
+    border-width: 1px;
+    border-color: #729ea5;
+    border-collapse: collapse;
+    overflow: scroll;
+	/*table-layout: fixed;*/
+}
+.cwdtable th {
+    font-size: 14px;
+    background: #782006;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #782006;
+    color: #fff;
+    text-align: center;
+	position: sticky;
+	top: 0;
+}
+.cwdtable td {
+    font-size: 14px;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #782006;
+    cursor: pointer;
+}
+.buttons_operations{
+	width: 10px;
+}
+.p_gaz, .p_gaz_info{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	/*padding-bottom: 10px;*/
+}
+.t_uzel{
+	text-align: center;
+	font-size: 14px;
+	padding: 50px;
+}
+.p_sum{
+	/*text-align: center;*/
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 10px;
+	/*padding-bottom: 10px;*/
+}
+.numrow{
+	text-align: right;
+	font-size: 14px;
+	font-weight: bold;
+	/*padding-bottom: 10px;*/
+}
+.resut_row_table{
+	/*display: flex;*/
+	justify-content: space-between;
+}
+
+.t1{
+	width: 30px;
+}
+.t2{
+	width: 200px;
+}
+.t3{
+	width: 100px;
+}
+.t4{
+	width: 100px;
+}
+.t5{
+	width: 100px;
+}
+.t6{
+	border-color: 1px solid white;
+	position: sticky;
+}
+.t7{
+	vertical-align: middle;
+}
+.modal_go{
+	padding: 10px;	
+}
+.legend_og{
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin-bottom: .5rem;
+	font-size: 15px;
+	line-height: inherit;
+}
+.fieldset_og {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.modal_div{
+	padding: 10px;
+}
+
+
+
+
+
+   /* для элемента input c type="checkbox" */
+    .custom-checkbox {
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+    }
+
+    /* для элемента label, связанного с .custom-checkbox */
+    .custom-checkbox+label {
+      display: inline-flex;
+      align-items: center;
+     /* user-select: none;*/
+    }
+
+    /* создание в label псевдоэлемента before со следующими стилями */
+    .custom-checkbox+label::before {
+      content: '';
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      flex-shrink: 0;
+      flex-grow: 0;
+      border: 1px solid #adb5bd;
+      border-radius: 0.25em;
+      margin-right: 0.5em;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 50% 50%;
+    }
+
+    /* стили при наведении курсора на checkbox */
+    .custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
+      border-color: #b3d7ff;
+    }
+
+    /* стили для активного чекбокса (при нажатии на него) */
+    .custom-checkbox:not(:disabled):active+label::before {
+      background-color: #b3d7ff;
+      border-color: #b3d7ff;
+    }
+
+    /* стили для чекбокса, находящегося в фокусе */
+    .custom-checkbox:focus+label::before {
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+    /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+    .custom-checkbox:focus:not(:checked)+label::before {
+      border-color: #80bdff;
+    }
+
+    /* стили для чекбокса, находящегося в состоянии checked */
+    .custom-checkbox:checked+label::before {
+      border-color: #0b76ef;
+      background-color: #0b76ef;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    }
+
+    /* стили для чекбокса, находящегося в состоянии disabled */
+    .custom-checkbox:disabled+label::before {
+      background-color: #e9ecef;
+    }
+	.checkbox {
+      margin-bottom: 0.5em;
+    }
+	
+	
+.form_radio {
+	margin-bottom: 10px;
+}
+.form_radio label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 5px;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+}
+.form_radio label:before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 18px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+}
+.uzel_name, .uzel_pu, .uzel_sar, .uzel_so, .uzel_gvs, .uzel_system, .uzel_razdel{
+	display: none;
+}
+#uzel_razdel{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+/*#m, #o, #mo, #mot, #mop, #is_armor, #ot, #sp{*/
+/*#mo, #mot, #mop, #is_armor, #ot, #sp, #t_is, #bron_hidden, #subobj_subject_hidden, #o, #ti_section{
+	display: none;
+} */
+div[gaz_block="m"], div[gaz_block="mo"], div[gaz_block="mod"], div[gaz_block="d"]{
+	display: none;
+}
+#heat_source_hide{
+	display: none;
+}
+#is_armor{
+	border: solid 1px #782006;
+	padding: 10px;	
+	margin-bottom: 10px;
+}
+.btn_clear_fields{	
+	background: transparent;
+	color: red;
+	border: 0;
+	cursor: pointer;
+	font-size: 17px;
+}
+l/*abel.m, label.o, .button_o{
+	display: none;
+}*/
+/*.heat_source_hide_group{
+	display: flex;
+}*/
+#sum_workload{
+	padding-left: 10px;
+}
+.btn_add_fields{	
+	background: transparent;
+	color: green;
+	border: 0;
+	cursor: pointer;
+	font-size: 17px;
+}
+.btn_clear_fields:focus,
+.btn_add_fields:focus{
+	outline: none;
+}
+.tooltip, .tooltip_post {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px black;
+	margin-top: 3px;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext, .tooltip_post .tooltiptext {
+    visibility: hidden;
+	font-size: 12px;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -50px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after, .tooltip_post .tooltiptext::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext, .tooltip_post:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+.btn_add_fields_modal{
+background-color: #782006;
+color: white;
+border: none;
+border-radius: 3px;
+font-size: 15px;
+margin-left: 56px;
+margin-bottom: 10px;
+cursor: pointer;
+}
+.icon-check{
+	color:#008000; /* orange Красно-буро-оранжевый cd5700*/
+}
+.icon-ban{
+	color:#1560bd; /* Джинсовый синий*/
+}
+.icon-close{
+	color:red; /* зеленый*/
+}
+.icon-inactive{
+	color:#1560bd; /* зеленый*/
+}
+.list_td{
+	text-align: center;
+}
+.list-name{
+	width: 75%;
+}
+.del_ob{
+	display: inline;
+	color: red;
+	font-size: 11px;
+	margin-left: -20px;	
+}
+.inactive_ob{
+	display: inline;
+	color: green;
+	font-size: 11px;
+	margin-left: -20px;	
+}
+
+
+.calc_units{
+	position:fixed;
+	right:10px;
+	top: 170px;
+	width: 45px;
+	height: 45px;
+	background-image: url(../image/calct.png);
+	opacity: 0.5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	/*background-color: red;*/
+}
+.calc_units:hover{
+	cursor:pointer;
+}
+#calc_units{
+	border: 1px solid #782006;
+	position: fixed;
+	right:55px;
+	top: 170px;
+	width: 250px;
+	height: 140px;
+	display: none;
+	
+}
+.label_units{
+	padding-top: 10px;
+	display: inline-block;
+	padding-left: 5px;
+	width: 70px;
+}
+.head_calc{
+	background-color: #782006;
+	color: white;
+	font-size: 17px;
+	text-align: center;
+	height: 30px;
+	padding-top: 5px;
+}
+.nazn_sar_block, .nazn_tp_block{
+	display: flex;
+}
+.lab_check{
+margin-top: 3px;
+margin-right: 15px;
+}
+
+
+.container-main{
+	margin: 5px auto;
+	width: 100%;
+}
+
+.accordion-container {
+	width: 100%;
+	margin: 0 0 20px;
+	clear:both;
+}
+.accordion-container-all {
+	width: 14%;
+	margin-left: auto;
+	margin-right: 0;
+	margin-bottom: 20px;
+	/*clear:both;*/
+}
+.accordion-titulo, .accordion-titulo-tab {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 100;
+	background: #dfdedd;
+	color: #000;
+	text-decoration: none;
+}
+.accordion-titulo-all {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 100;
+	background: #782006;
+	color: #fff;
+	text-decoration: none;
+}
+.accordion-titulo.open, .accordion-titulo-tab.open {
+	background: #a6a6a6;
+	color: #000;
+}
+.accordion-titulo-all.open{
+	background: #782006;
+	color: #fff;
+}
+.accordion-titulo:hover, .accordion-titulo-tab:hover {
+	background: #a6a6a6;
+}
+ .accordion-titulo-all:hover{
+	background: #782006;
+ }
+.accordion-titulo span.toggle-icon:before, .accordion-titulo-all span.toggle-icon:before , .accordion-titulo-tab span.toggle-icon:before{
+	content:"+";
+}
+
+.accordion-titulo.open span.toggle-icon:before, .accordion-titulo-all.open span.toggle-icon:before, .accordion-titulo-tab.open span.toggle-icon:before {
+	content:"-";
+}
+
+.accordion-titulo span.toggle-icon, .accordion-titulo-all span.toggle-icon, .accordion-titulo-tab span.toggle-icon {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 20px;
+	font-weight:bold;
+}
+
+.accordion-content {
+	display: none;
+	padding: 20px;
+	overflow: auto;
+}
+
+.accordion-content p{
+	margin:0;
+}
+
+.accordion-content img {
+	display: block;
+	float: left;
+	margin: 0 15px 10px 0;
+	width: 50%;
+	height: auto;
+}
+
+
+@media (max-width: 767px) {
+	.accordion-content {
+		padding: 10px 0;
+	}
+}
+
+/********************************************************/
+    .tabs_teplo {
+      font-size: 0;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+	  /*margin-bottom: 40px;*/
+	  margin-top: 5px;
+    }
+
+    .tabs_teplo>input[type="radio"] {
+      display: none;
+    }
+
+    .tabs_teplo>div {
+      /* скрыть контент по умолчанию */
+      display: none;
+      border: 1px solid #e0e0e0;
+      padding: 10px 15px;
+      font-size: 16px;
+    }
+
+    /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+    #tab-btn-1:checked~#content-1,
+    #tab-btn-2:checked~#content-2,
+    #tab-btn-3:checked~#content-3 {
+      display: block;
+    }
+
+    .tabs_teplo>label {
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      user-select: none;
+      background-color: #f5f5f5;
+      border: 1px solid #e0e0e0;
+      padding: 2px 8px;
+      font-size: 16px;
+      line-height: 1.5;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+      cursor: pointer;
+      position: relative;
+      top: 1px;
+    }
+
+    .tabs_teplo>label:not(:first-of-type) {
+      border-left: none;
+    }
+	.tabs_teplo>input[type="radio"]+label.active,
+    .tabs_teplo>input[type="radio"]:checked+label {
+      background: #782006;
+	  color: #ffffff;
+      border-bottom: 1px solid #782006;
+    }
+/* Изменения стиля переключателей вкладок при наведении */
+.tabs_teplo>input:checked+label {
+    background: #782006;
+    color: #ffffff;
+}
+.tabs_teplo>label:hover {
+    background: #c2c2c2;
+    color: #782006;
+	opacity: 1;
+}
+.tabs_teplo>label:active {
+    background: #782006;
+    color: #ffffff;
+	opacity: 0.7;
+}	
+
+.float-right{
+	float: right;
+}
+.ui-widget{	
+	margin-top: 5px;	
+}
+.uzel_content{
+      width: 1100px;
+	  border: 2px solid #782006;
+	  padding: 10px 30px;
+	  line-height: 1.4em;
+	  display: none;
+}
+
+#empty_content {
+
+      width: 1100px;
+	  border: 2px solid #782006;
+	  padding: 10px 30px;
+	  line-height: 1.4em;
+}
+
+ .teploobmennik_so,  .teploobmennik_gvs{
+	 display:none;
+ }    
+
+
+
+
+
